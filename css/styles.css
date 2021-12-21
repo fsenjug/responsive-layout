@@ -69,6 +69,13 @@ footer div {
   justify-content: space-between;
 }
 
+.bottom ul {
+  display: none;
+}
+.bottom p {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 768px) {
   .main-nav ul,
   .profile-photo {
@@ -105,6 +112,16 @@ footer div {
     flex: 1;
     flex-basis: 45%;
     margin: 0.3em;
+  }
+
+  .bottom p:nth-last-child(2) {
+    display: none;
+  }
+  .bottom p {
+    font-weight: bold;
+  }
+  .bottom ul {
+    display: flex;
   }
 }
 
